@@ -1,2 +1,4 @@
-import {sum,PI}from "./math.js";
-console.log(sum(1,2));
+import { generateSlug } from "random-word-slugs";
+
+const slug = generateSlug();
+console.log(slug);
